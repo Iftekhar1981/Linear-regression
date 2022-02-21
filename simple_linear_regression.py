@@ -32,7 +32,7 @@ linear_regressor_obj = LinearRegression()
 linear_regressor_obj.fit(x_train, y_train)
 
 # Predicting the Testing set results
-y_pred = linear_regressor_obj.predict(x_test)
+y_predict = linear_regressor_obj.predict(x_test)
 
 # Visualising the Training set results
 plt.scatter(x_train, y_train, color = 'red')
