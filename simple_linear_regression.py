@@ -24,7 +24,7 @@ y = dataset.iloc[:, -1].values
 
 # split the modelling dataset into the training and testing sets 
 from sklearn.model_selection import train_test_split
-x_train,x_test, y_train, y_test = train_test_split(x, y, test_size = 0.25, random_state = 0)
+x_train,x_test, y_train, y_test = train_test_split(x, y, test_size = 0.25)
 
 # Training the Simple Linear Regression model on the Training set
 from sklearn.linear_model import LinearRegression
