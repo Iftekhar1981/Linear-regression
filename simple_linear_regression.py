@@ -29,6 +29,7 @@ x_train,x_test, y_train, y_test = train_test_split(x, y, test_size = 0.25)
 # Training the Simple Linear Regression model on the Training set
 from sklearn.linear_model import LinearRegression
 linear_regressor_obj = LinearRegression()
+#fit = capturing the patterns from the provided data
 linear_regressor_obj.fit(x_train, y_train)
 
 # Predicting the Testing set results
